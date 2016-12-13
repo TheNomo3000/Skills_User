@@ -1,0 +1,29 @@
+#content_formulario{
+	position: relative;
+	top: 59px;
+	overflow: hidden;
+}
+#formulario{
+	box-shadow: 0 0 2px 0px;
+	border-radius: 4px;
+	background-color: #fff;
+	width: 940px;
+	padding: 30px;
+	margin: 20px auto;
+}
+#formulario  div{
+	color: #42627F;
+	width: 200px;
+	padding: 10px 0;
+	margin:0 auto;
+}
+.colum input{
+	width:200px;
+	border: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #5884AB;
+    background-color: transparent;
+}
+#formulario div input[type="submit"]{
+	
+}
