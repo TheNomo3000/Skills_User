@@ -13,17 +13,26 @@
 }
 #formulario  div{
 	color: #42627F;
-	width: 200px;
+	width: 300px;
 	padding: 10px 0;
 	margin:0 auto;
 }
 .colum input{
-	width:200px;
+	width: 100%;
+	outline: none;
 	border: none;
 	padding-bottom: 5px;
 	border-bottom: 2px solid #5884AB;
     background-color: transparent;
 }
-#formulario div input[type="submit"]{
-	
+#Registro{
+	display: block;
+	width:100px;
+	height: 40px;
+	margin:0 auto;
+}
+h1{
+	text-align: center;
+	color: #5884AB;
+	margin-bottom: 20px;
 }
