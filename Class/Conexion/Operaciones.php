@@ -12,6 +12,12 @@
         function cerrarConexion(){
             $this->conexion->close();
         }
+        function codigo_error(){
+            return $this->conexion->errno;
+        }
+        function error(){
+            return $this->conexion->error;
+        }
         function getResultado(){
             return $this->resultado;
         }

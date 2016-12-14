@@ -6,10 +6,10 @@ $(document).ready(function() {
 });
 function registro(){
 	$('.colum input').focus(function (){
-		$(this).css("border-bottom","1px solid black");
+		$(this).css("border-bottom","2px solid black");
 	});
 	$('.colum input').focusout(function (){
-		$(this).css("border-bottom","1px solid #5884AB");
+		$(this).css("border-bottom","2px solid #5884AB");
 	});
 }
 function menu(){

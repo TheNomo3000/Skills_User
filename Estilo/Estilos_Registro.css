@@ -3,19 +3,24 @@
 	top: 59px;
 	overflow: hidden;
 }
+#cabecera{
+	background-color: #5884AB;
+	border-radius: 5px;
+	color:#fff;
+	margin-bottom: 30px;
+}
 #formulario{
 	box-shadow: 0 0 2px 0px;
 	border-radius: 4px;
 	background-color: #fff;
+	overflow: hidden;
 	width: 940px;
 	padding: 30px;
-	margin: 20px auto;
+	margin: 40px auto;
 }
-#formulario  div{
+#formulario div{
 	color: #42627F;
-	width: 300px;
 	padding: 10px 0;
-	margin:0 auto;
 }
 .colum input{
 	width: 100%;
@@ -27,12 +32,28 @@
 }
 #Registro{
 	display: block;
-	width:100px;
+	width: 100px;
 	height: 40px;
 	margin:0 auto;
 }
 h1{
 	text-align: center;
-	color: #5884AB;
-	margin-bottom: 20px;
+	color:#fff;
+}
+#izq{
+	width:300px;
+	margin:0 70px;
+	float:left;
+}
+#der{
+	width:300px;
+	margin:0 70px;
+	float:left;
+}
+#preview{
+	border:1px solid #69f;
+	margin: 0 auto;
+	width:130px;
+	height:130px;
+	margin-bottom: 30px
 }
